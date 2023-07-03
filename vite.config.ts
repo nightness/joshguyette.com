@@ -14,7 +14,6 @@ export default defineConfig({
       manifest: {
         name: "Joshua Guyette's Portfolio",
         short_name: "Joshua Guyette's Portfolio",
-        theme_color: "#ffffff",
         icons: [
           {
             src: "/pwa-192x192.png",
