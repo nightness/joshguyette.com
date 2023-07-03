@@ -2,6 +2,7 @@ import { useState } from "react";
 import { PrimeReactProvider } from "primereact/api";
 import { Dialog } from "primereact/dialog";
 import { Button } from "primereact/button";
+import Resume from "./assets/resume.pdf";
 
 import "./App.css";
 
@@ -22,7 +23,8 @@ function App() {
         className="p-button-raised p-button-rounded"
         style={{ marginRight: "1rem" }}
         onClick={() =>
-          window.open("https://joshguyette.com/resume.pdf", "_blank")
+          // window.open("https://joshguyette.com/resume.pdf", "_blank")
+          console.log(Resume)
         }
       />
       <Button
