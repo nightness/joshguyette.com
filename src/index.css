@@ -30,6 +30,10 @@ body {
   min-width: 320px;
   min-height: 100vh;
   font-family: var(--font-family);
+  background-image: url("/cloud.jpeg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 h1 {

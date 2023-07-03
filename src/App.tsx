@@ -22,13 +22,23 @@ function App() {
       <Button
         label="About Me"
         className="p-button-raised p-button-rounded"
-        style={{ marginRight: "1rem" }}
+        style={{
+          marginRight: "0.5rem",
+          marginLeft: "0.5rem",
+          marginBottom: "0.25rem",
+          width: "8rem",
+        }}
         onClick={() => setVisible(true)}
       />
       <Button
         label="Resume"
         className="p-button-raised p-button-rounded"
-        style={{ marginRight: "1rem" }}
+        style={{
+          marginRight: "0.5rem",
+          marginLeft: "0.5rem",
+          marginBottom: "0.25rem",
+          width: "8rem",
+        }}
         onClick={() =>
           window.open("https://joshguyette.com/resume.pdf", "_blank")
         }
@@ -36,7 +46,12 @@ function App() {
       <Button
         label="LinkedIn"
         className="p-button-raised p-button-rounded"
-        style={{ marginRight: "1rem" }}
+        style={{
+          marginRight: "0.5rem",
+          marginLeft: "0.5rem",
+          marginBottom: "0.25rem",
+          width: "8rem",
+        }}
         onClick={() =>
           window.open(
             "https://www.linkedin.com/in/joshua-guyette-854311113/",
@@ -47,6 +62,12 @@ function App() {
       <Button
         label="GitHub"
         className="p-button-raised p-button-rounded"
+        style={{
+          marginRight: "0.5rem",
+          marginLeft: "0.5rem",
+          marginBottom: "0.25rem",
+          width: "8rem",
+        }}
         onClick={() => window.open("https://github.com/nightness", "_blank")}
       />
       <Dialog
