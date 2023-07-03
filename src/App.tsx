@@ -10,9 +10,17 @@ function App() {
 
   return (
     <PrimeReactProvider>
-      <h1>Joshua Guyette's Portfolio</h1>
+      <h1>Joshua Guyette</h1>
+      <h2
+        style={{
+          paddingBottom: "5rem",
+        }}
+      >
+        <i>Fullstack Software Engineer</i> | <i>React Native</i> |{" "}
+        <i>Express.js</i>
+      </h2>
       <Button
-        label="About"
+        label="About Me"
         className="p-button-raised p-button-rounded"
         style={{ marginRight: "1rem" }}
         onClick={() => setVisible(true)}
