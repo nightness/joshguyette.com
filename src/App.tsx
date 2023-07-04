@@ -17,7 +17,7 @@ function App() {
         style={{
           marginBottom: "3rem",
           backgroundColor: "#ffffff80",
-          boxShadow: "-1em 1em 0.4em #777",
+          boxShadow: "-1em 1em 0.5em #5558",
         }}
       >
         <i>Fullstack Software Engineer</i> | <i>React Native</i> |{" "}
