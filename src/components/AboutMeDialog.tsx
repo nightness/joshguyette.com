@@ -11,7 +11,11 @@ function AboutMeDialog({
     <Dialog
       header="About Me"
       visible={visible}
-      style={{ width: "50vw" }}
+      style={{
+        width: "90vw",
+        maxHeight: "90%",
+        maxWidth: "1000px",
+      }}
       onHide={onHide}
       closeOnEscape
       dismissableMask

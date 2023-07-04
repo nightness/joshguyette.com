@@ -8,7 +8,7 @@ function IdentityPanel() {
       style={{
         marginBottom: "3rem",
         backgroundColor: "#ffffff80",
-        boxShadow: "-1em 1em 0.5em #5558",
+        boxShadow: "-1em 1em 0.5em #8888",
       }}
     >
       <i>Fullstack Software Engineer</i> | <i>React Native</i> |{" "}
