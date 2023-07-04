@@ -16,7 +16,11 @@ function App() {
       <ActionMenu
         onClickAboutMe={() => setVisible(true)}
         onClickResume={() =>
-          window.open("https://joshguyette.com/resume.pdf", "_blank")
+          window.open(
+            `${window.location.href}/resume.pdf`,
+            "_blank",
+            "noopener=true,noreferrer=true"
+          )
         }
         onClickLinkedIn={() =>
           window.open(
