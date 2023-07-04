@@ -17,7 +17,7 @@ function App() {
         onClickAboutMe={() => setVisible(true)}
         onClickResume={() =>
           window.open(
-            `${window.location.href}/resume.pdf`,
+            `${window.location.href}resume.pdf`,
             "_blank",
             "noopener=true,noreferrer=true"
           )
