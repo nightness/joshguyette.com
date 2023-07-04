@@ -2,6 +2,7 @@ import { useState } from "react";
 import { PrimeReactProvider } from "primereact/api";
 import { Dialog } from "primereact/dialog";
 import { Button } from "primereact/button";
+import { Card } from "primereact/card";
 
 import "./App.css";
 
@@ -10,15 +11,18 @@ function App() {
 
   return (
     <PrimeReactProvider>
-      <h1>Joshua Guyette</h1>
-      <h2
+      <Card
+        title="Joshua Guyette"
+        subTitle="New Glarus, WI"
         style={{
-          paddingBottom: "5rem",
+          marginBottom: "3rem",
+          backgroundColor: "#ffffff80",
+          boxShadow: "-1em 1em 0.4em #777",
         }}
       >
         <i>Fullstack Software Engineer</i> | <i>React Native</i> |{" "}
         <i>Express.js</i>
-      </h2>
+      </Card>
       <Button
         label="About Me"
         className="p-button-raised p-button-rounded"
