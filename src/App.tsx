@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { PrimeReactProvider } from "primereact/api";
 
 import IdentityPanel from "./components/IdentityPanel";
 import ActionMenu from "./components/ActionMenu";
@@ -11,29 +10,50 @@ function App() {
   const [visible, setVisible] = useState(false);
 
   return (
-    <PrimeReactProvider>
-      <IdentityPanel />
+    <div>
+      <IdentityPanel
+        title="Joshua Guyette"
+        subTitle="Software Developer"
+        roles={[
+          "Fullstack Software Engineer",
+          "React",
+          "React Native",
+          "Express.js",
+          "Node.js",
+        ]}
+      />
       <ActionMenu
-        onClickAboutMe={() => setVisible(true)}
-        onClickResume={() =>
-          window.open(
-            `${window.location.href}resume.pdf`,
-            "_blank",
-            "noopener=true,noreferrer=true"
-          )
-        }
-        onClickLinkedIn={() =>
-          window.open(
-            "https://www.linkedin.com/in/joshua-guyette-854311113/",
-            "_blank"
-          )
-        }
-        onClickGitHub={() =>
-          window.open("https://github.com/nightness", "_blank")
-        }
+        actions={[
+          {
+            label: "About Me",
+            onClick: () => setVisible(true),
+          },
+          {
+            label: "Resume",
+            onClick: () =>
+              window.open(
+                `${window.location.href}resume.pdf`,
+                "_blank",
+                "noopener=true,noreferrer=true"
+              ),
+          },
+          {
+            label: "LinkedIn",
+            onClick: () =>
+              window.open(
+                "https://www.linkedin.com/in/joshua-guyette-854311113/",
+                "_blank"
+              ),
+          },
+          {
+            label: "GitHub",
+            onClick: () =>
+              window.open("https://github.com/nightness", "_blank"),
+          },
+        ]}
       />
       <AboutMeDialog visible={visible} onHide={() => setVisible(false)} />
-    </PrimeReactProvider>
+    </div>
   );
 }
 

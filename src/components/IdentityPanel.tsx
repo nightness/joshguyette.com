@@ -1,10 +1,16 @@
 import { Card } from "primereact/card";
 
-function IdentityPanel() {
+interface Props {
+  title: string;
+  subTitle: string;
+  roles: string[];
+}
+
+function IdentityPanel({ title, subTitle, roles }: Props) {
   return (
     <Card
-      title="Joshua Guyette"
-      subTitle="New Glarus, WI"
+      title={title}
+      subTitle={subTitle}
       style={{
         marginBottom: "3rem",
         color: "#FFFFFF",
@@ -12,8 +18,15 @@ function IdentityPanel() {
         boxShadow: "-1em 1em 0.5em #FFA50060",
       }}
     >
-      <i>Fullstack Software Engineer</i> | <i>React</i> | <i>React Native</i> |{" "}
-      <i>Express.js</i>
+      {roles.map((role, index) =>
+        index + 1 < roles.length ? (
+          <>
+            <i key={role}>{role}</i> | &nbsp;
+          </>
+        ) : (
+          <i key={role}>{role}</i>
+        )
+      )}
     </Card>
   );
 }
