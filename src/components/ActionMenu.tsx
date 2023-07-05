@@ -23,6 +23,8 @@ function ActionMenu({
           marginLeft: "0.5rem",
           marginBottom: "0.25rem",
           width: "8rem",
+          backgroundColor: "orange",
+          borderColor: "darkorange",
         }}
         onClick={onClickAboutMe}
       />
@@ -34,6 +36,8 @@ function ActionMenu({
           marginLeft: "0.5rem",
           marginBottom: "0.25rem",
           width: "8rem",
+          backgroundColor: "orange",
+          borderColor: "darkorange",
         }}
         onClick={onClickResume}
       />
@@ -45,6 +49,8 @@ function ActionMenu({
           marginLeft: "0.5rem",
           marginBottom: "0.25rem",
           width: "8rem",
+          backgroundColor: "orange",
+          borderColor: "darkorange",
         }}
         onClick={onClickLinkedIn}
       />
@@ -55,6 +61,8 @@ function ActionMenu({
           marginRight: "0.5rem",
           marginLeft: "0.5rem",
           marginBottom: "0.25rem",
+          backgroundColor: "orange",
+          borderColor: "darkorange",
           width: "8rem",
         }}
         onClick={onClickGitHub}

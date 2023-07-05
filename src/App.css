@@ -37,6 +37,11 @@
   padding: 2em;
 }
 
+.p-card-subtitle {
+  font-size: 1.2em;
+  color: #fff !important;
+}
+
 .read-the-docs {
   color: #888;
 }

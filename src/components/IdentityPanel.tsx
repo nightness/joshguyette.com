@@ -7,11 +7,12 @@ function IdentityPanel() {
       subTitle="New Glarus, WI"
       style={{
         marginBottom: "3rem",
-        backgroundColor: "#ffffff80",
-        boxShadow: "-1em 1em 0.5em #8888",
+        color: "#FFFFFF",
+        backgroundColor: "#ffa500bb",
+        boxShadow: "-1em 1em 0.5em #FFA50060",
       }}
     >
-      <i>Fullstack Software Engineer</i> | <i>React Native</i> |{" "}
+      <i>Fullstack Software Engineer</i> | <i>React</i> | <i>React Native</i> |{" "}
       <i>Express.js</i>
     </Card>
   );
