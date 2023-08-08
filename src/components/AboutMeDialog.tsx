@@ -38,6 +38,7 @@ function AboutMeDialog({
         shaped me into a well-rounded software developer with a deep
         appreciation for the intersection of theory and practice.
       </p>
+      <br />
       <p className="m-0">
         Throughout my life, programming has been my true passion, igniting a
         spark within me at the young age of 15 back in 1990. Although I didn't
@@ -47,6 +48,7 @@ function AboutMeDialog({
         the world of software development, constantly honing my skills and
         expanding my knowledge.
       </p>
+      <br />
       <p className="m-0">
         In the subsequent years, I found employment at Best Buy from 2013 to
         2015, where I enjoyed engaging with customers and sharing my knowledge
@@ -58,6 +60,7 @@ function AboutMeDialog({
         but also granted me the freedom and flexibility to continue my software
         development education.
       </p>
+      <br />
       <p className="m-0">
         The amalgamation of these experiences has cultivated my resilience,
         resourcefulness, and a steadfast commitment to pursuing my passion for

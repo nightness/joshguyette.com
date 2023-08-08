@@ -21,16 +21,26 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       }}
       className="p-mb-4"
     >
-      <img
-        draggable={false}
-        alt={project.title}
-        src={project.imageURL}
-        onError={(e) =>
-          (e.currentTarget.src =
-            "https://www.primefaces.org/wp-content/uploads/2020/05/placeholder.png")
-        }
-        style={{ width: "100%" }}
-      />
+      {project.imageURL ? (
+        <img
+          draggable={false}
+          alt={project.title}
+          src={project.imageURL}
+          onError={(e) =>
+            (e.currentTarget.src =
+              "https://www.primefaces.org/wp-content/uploads/2020/05/placeholder.png")
+          }
+          style={{ width: "100%" }}
+        />
+      ) : (
+        <div
+          style={{
+            width: "100%",
+            height: "200px",
+            backgroundColor: "#ccc",
+          }}
+        />
+      )}
       <h3>{project.title}</h3>
       <h4>{project.date}</h4>
       <p className="p-m-0" style={{ lineHeight: "1.5", flex: 1 }}>

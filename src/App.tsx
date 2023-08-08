@@ -14,7 +14,7 @@ const projects: Project[] = [
     date: "Jun 2023 - Present",
     description:
       "This is a description of my awesome project. It does X, Y, and Z and uses technologies A, B, and C.",
-    imageURL: "https://path-to-your-image.jpg",
+    // imageURL: "https://path-to-your-image.jpg",
     link: "https://link-to-project-demo-or-website.com",
     githubLink: "https://github.com/yourusername/project-repo",
   },
