@@ -5,9 +5,59 @@ import ActionMenu from "./components/ActionMenu";
 import AboutMeDialog from "./components/AboutMeDialog";
 
 import "./App.css";
+import ProjectsDialog from "./components/ProjectsDialog";
+import { Project } from "./types";
+
+const projects: Project[] = [
+  {
+    title: "Delta GPT",
+    date: "Jun 2023 - Present",
+    description:
+      "This is a description of my awesome project. It does X, Y, and Z and uses technologies A, B, and C.",
+    imageURL: "https://path-to-your-image.jpg",
+    link: "https://link-to-project-demo-or-website.com",
+    githubLink: "https://github.com/yourusername/project-repo",
+  },
+  {
+    title: "SkateApp",
+    date: "June 2022 to Present",
+    description: "",
+    imageURL: "https://path-to-your-image.jpg",
+    link: "https://skateapp.net",
+    githubLink: "https://github.com/yourusername/project-repo",
+  },
+  {
+    title: "My Awesome Project #3",
+    date: "Jan 2023",
+    description:
+      "This is a description of my awesome project. It does X, Y, and Z and uses technologies A, B, and C.",
+    imageURL: "https://path-to-your-image.jpg",
+    link: "https://link-to-project-demo-or-website.com",
+    githubLink: "https://github.com/yourusername/project-repo",
+  },
+  {
+    title: "My Awesome Project #4",
+    date: "Jan 2023",
+    description:
+      "This is a description of my awesome project. It does X, Y, and Z and uses technologies A, B, and C.",
+    imageURL: "https://path-to-your-image.jpg",
+    link: "https://link-to-project-demo-or-website.com",
+    githubLink: "https://github.com/yourusername/project-repo",
+  },
+  {
+    title: "My Awesome Project #5",
+    date: "Jan 2023",
+    description:
+      "This is a description of my awesome project. It does X, Y, and Z and uses technologies A, B, and C.",
+    imageURL: "https://path-to-your-image.jpg",
+    link: "https://link-to-project-demo-or-website.com",
+    githubLink: "https://github.com/yourusername/project-repo",
+  },
+];
 
 function App() {
-  const [visible, setVisible] = useState(false);
+  const [isAboutMeVisible, setIsAboutMeVisible] = useState(false);
+  const [isProjectsVisible, setIsProjectsVisible] = useState(false);
 
   return (
     <div>
@@ -15,7 +65,7 @@ function App() {
         title="Joshua Guyette"
         subTitle="Software Developer"
         roles={[
-          "Fullstack Software Engineer",
+          "Fullstack Software Developer",
           "React",
           "React Native",
           "Express.js",
@@ -26,7 +76,11 @@ function App() {
         actions={[
           {
             label: "About Me",
-            onClick: () => setVisible(true),
+            onClick: () => setIsAboutMeVisible(true),
+          },
+          {
+            label: "Portfolio",
+            onClick: () => setIsProjectsVisible(true),
           },
           {
             label: "Resume",
@@ -52,7 +106,15 @@ function App() {
           },
         ]}
       />
-      <AboutMeDialog visible={visible} onHide={() => setVisible(false)} />
+      <AboutMeDialog
+        visible={isAboutMeVisible}
+        onHide={() => setIsAboutMeVisible(false)}
+      />
+      <ProjectsDialog
+        projects={projects}
+        visible={isProjectsVisible}
+        onHide={() => setIsProjectsVisible(false)}
+      />
     </div>
   );
 }
