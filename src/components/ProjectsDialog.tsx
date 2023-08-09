@@ -25,7 +25,7 @@ function getInterpolatedWidthFactor(screenWidth: number): number {
 }
 
 function ProjectsDialog({ projects, visible, onHide }: ProjectsDialogProps) {
-  const { width, height } = useWindowDimensions();
+  const { width } = useWindowDimensions();
 
   // Assuming each ProjectCard has a width of 200px (you can adjust this value)
   const projectCardWidth = 345;

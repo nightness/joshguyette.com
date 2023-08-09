@@ -32,11 +32,12 @@ body {
   font-family: var(--font-family);
   /* background-color: #eee;
   background-image: url("/clipboard.jpeg"); */
-  background-color: #eee;
-  background-image: url("/moon.jpeg");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
+  /* background-color: #eee; */
+  /* background-image: url("/moon.jpeg"); */
+  background: linear-gradient(to bottom, #77f, #ddf);
+  /* background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; */
 }
 
 h1 {

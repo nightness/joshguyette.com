@@ -8,7 +8,7 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "deploy": "firebase deploy"
+    "deploy": "yarn build && firebase deploy"
   },
   "dependencies": {
     "primereact": "^9.6.0",

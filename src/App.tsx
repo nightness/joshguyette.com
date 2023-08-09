@@ -13,45 +13,34 @@ const projects: Project[] = [
     title: "Delta GPT",
     date: "Jun 2023 - Present",
     description:
-      "This is a description of my awesome project. It does X, Y, and Z and uses technologies A, B, and C.",
-    // imageURL: "https://path-to-your-image.jpg",
+      "Delta GPT is a mobile OpenAI chat client. Use at no additional cost to the user because it uses one of your OpenAI API key. [Coming soon for iOS and Android]",
+    imageURL: "https://path-to-your-image.jpg",
     link: "https://link-to-project-demo-or-website.com",
-    githubLink: "https://github.com/yourusername/project-repo",
+    githubLink: "https://github.com/nightness/delta-gps",
   },
   {
     title: "SkateApp",
     date: "June 2022 to Present",
-    description: "",
+    description:
+      "Browse and search for skateboard shops, spots and parks; also bookmark and share your favorite locations. It uses mapbox to display spots on a map. [Available for iOS and Android]",
     imageURL: "https://path-to-your-image.jpg",
     link: "https://skateapp.net",
-    githubLink: "https://github.com/yourusername/project-repo",
   },
   {
-    title: "My Awesome Project #3",
-    date: "Jan 2023",
+    title: "TVPal",
+    date: "Jan 2021 to April 2022",
     description:
-      "This is a description of my awesome project. It does X, Y, and Z and uses technologies A, B, and C.",
+      "TVPal was a mobile app that allows users to create a watch list of their favorite TV shows and movies. Users could also view the latest trending shows and movies, and search for new shows and movies to add to their watch list. [Discontinued and unreleased]",
     imageURL: "https://path-to-your-image.jpg",
-    link: "https://link-to-project-demo-or-website.com",
-    githubLink: "https://github.com/yourusername/project-repo",
   },
   {
-    title: "My Awesome Project #4",
-    date: "Jan 2023",
+    title: "TemPOS - Point of Sale System",
+    date: "2010-2012",
     description:
-      "This is a description of my awesome project. It does X, Y, and Z and uses technologies A, B, and C.",
+      "Originally a restaurant wanted it, but they changed their minds. I continued the project anyways on my personal time. This was my first large scale project, and I learned a lot from do it. [Unfinished, lacks hardware support]",
     imageURL: "https://path-to-your-image.jpg",
     link: "https://link-to-project-demo-or-website.com",
-    githubLink: "https://github.com/yourusername/project-repo",
-  },
-  {
-    title: "My Awesome Project #5",
-    date: "Jan 2023",
-    description:
-      "This is a description of my awesome project. It does X, Y, and Z and uses technologies A, B, and C.",
-    imageURL: "https://path-to-your-image.jpg",
-    link: "https://link-to-project-demo-or-website.com",
-    githubLink: "https://github.com/yourusername/project-repo",
+    githubLink: "https://github.com/nightness/TemPOS",
   },
 ];
 
