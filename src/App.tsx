@@ -13,7 +13,7 @@ const projects: Project[] = [
     title: "Delta GPT",
     date: "Jun 2023 - Present",
     description:
-      "Delta GPT is a mobile OpenAI chat client. Use at no additional cost to the user because it uses one of your OpenAI API key. [Available for iOS and coming soon to Android]",
+      "Delta GPT is a free, user-friendly interface to OpenAI's chat models. It offers easy access to OpenAI chat models, with users managing their API costs. The tool prioritizes data privacy, storing information locally, and allows users to save message chains. [Available for iOS and coming soon to Android]",
     imageURL: "https://path-to-your-image.jpg",
     link: "https://link-to-project-demo-or-website.com",
     githubLink: "https://github.com/nightness/delta-gps",
