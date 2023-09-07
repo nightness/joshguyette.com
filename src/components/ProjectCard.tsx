@@ -11,7 +11,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
     <div
       style={{
         width: "320px",
-        height: "660px",
+        height: "500px",
         display: "flex", // Set display to flex
         flexDirection: "column", // Set direction to column
         border: "1px solid #ccc", // Optional: Add a border to mimic card style
@@ -21,7 +21,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       }}
       className="p-mb-4"
     >
-      {project.imageURL ? (
+      {/* {project.imageURL ? (
         <img
           draggable={false}
           alt={project.title}
@@ -41,7 +41,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             backgroundColor: "#ccc",
           }}
         />
-      )}
+      )} */}
       <h3>{project.title}</h3>
       <h4>{project.date}</h4>
       <p className="p-m-0" style={{ lineHeight: "1.5", flex: 1 }}>

@@ -15,7 +15,6 @@ const projects: Project[] = [
     description:
       "Delta GPT is a free, user-friendly interface to OpenAI's chat models. It offers easy access to OpenAI chat models, with users managing their API costs. The tool prioritizes data privacy, storing information locally, and allows users to save message chains. [Available for iOS and coming soon to Android]",
     imageURL: "https://path-to-your-image.jpg",
-    link: "https://link-to-project-demo-or-website.com",
     githubLink: "https://github.com/nightness/delta-gps",
   },
   {
@@ -39,7 +38,7 @@ const projects: Project[] = [
     description:
       "Originally a restaurant wanted it, but they changed their minds. I continued the project anyways on my personal time. This was my first large scale project, and I learned a lot from do it. [Unfinished, lacks hardware support]",
     imageURL: "https://path-to-your-image.jpg",
-    link: "https://link-to-project-demo-or-website.com",
+    // link: "https://link-to-project-demo-or-website.com",
     githubLink: "https://github.com/nightness/TemPOS",
   },
 ];
