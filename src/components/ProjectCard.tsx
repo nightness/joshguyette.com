@@ -25,7 +25,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         <img
           draggable={false}
           alt={project.title}
-          height={260}
+          height={230}
           src={project.imageURL}
           onError={(e) =>
             (e.currentTarget.src =

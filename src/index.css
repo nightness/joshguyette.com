@@ -1,3 +1,7 @@
+@import "primereact/resources/themes/saga-blue/theme.css";
+@import "primereact/resources/primereact.min.css";
+@import "primeicons/primeicons.css";
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -34,7 +38,7 @@ body {
   background-image: url("/clipboard.jpeg"); */
   /* background-color: #eee; */
   /* background-image: url("/moon.jpeg"); */
-  background: linear-gradient(to bottom, #77f, #ddf);
+  background: linear-gradient(to bottom, #125, #222);
   /* background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover; */

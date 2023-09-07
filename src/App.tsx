@@ -11,7 +11,7 @@ import { Project } from "./types";
 const projects: Project[] = [
   {
     title: "Delta GPT",
-    date: "Jun 2023 - Present",
+    date: "August 2023 - Present",
     description:
       "Delta GPT is a free, user-friendly interface to OpenAI's chat models. It offers easy access to OpenAI chat models, with users managing their API costs. The tool prioritizes data privacy, storing information locally, and allows users to save message chains. [Available for iOS and coming soon to Android]",
     imageURL: "https://path-to-your-image.jpg",
@@ -20,7 +20,7 @@ const projects: Project[] = [
   },
   {
     title: "SkateApp",
-    date: "June 2022 to Present",
+    date: "June 2022 to July 2023",
     description:
       "Browse and search for skateboard shops, spots and parks; also bookmark and share your favorite locations. It uses mapbox to display spots on a map. [Available for iOS and Android]",
     imageURL: "https://path-to-your-image.jpg",

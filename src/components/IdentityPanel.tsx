@@ -14,8 +14,12 @@ function IdentityPanel({ title, subTitle, roles }: Props) {
       style={{
         marginBottom: "3rem",
         color: "#FFFFFF",
-        backgroundColor: "#5050FFBB",
-        boxShadow: "-0.7em 0.7em 0.6em #5050FF60",
+        backgroundColor: "#2287",
+        borderWidth: "0.2rem",
+        borderColor: "#448",
+        borderStyle: "solid",
+        // boxShadow: "-0.7em 0.7em 0.6em #33F7",
+        borderRadius: "2.5rem",
       }}
     >
       {roles.map((role, index) =>

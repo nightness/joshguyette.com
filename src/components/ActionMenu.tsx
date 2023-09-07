@@ -22,9 +22,9 @@ function ActionMenu({ actions }: Props) {
             marginLeft: "0.5rem",
             marginBottom: "0.25rem",
             width: "8rem",
-            backgroundColor: "#55F",
+            backgroundColor: "#2287",
             // borderColor: "#AAF",
-            boxShadow: "-0.4em 0.4em 0.5em #5050FF60",
+            // boxShadow: "-0.2em 0.2em 0.25em #22A6",
           }}
           onClick={action.onClick}
         />
