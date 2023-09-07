@@ -11,7 +11,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
     <div
       style={{
         width: "320px",
-        height: "500px",
+        height: "100%",
         display: "flex", // Set display to flex
         flexDirection: "column", // Set direction to column
         border: "1px solid #ccc", // Optional: Add a border to mimic card style
